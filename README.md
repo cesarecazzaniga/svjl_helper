@@ -5,7 +5,7 @@ Package to generate self-consistent configuration cards for the pythia 8 hidden 
 The code is an adapted version of: [CMS SVJ production](https://github.com/cms-svj/SVJProduction) , [dark_showers_tool](https://gitlab.com/simonknapen/dark_showers_tool).
 
 ## Usage
-The code take the following arguments:
+The code takes the following arguments:
   * ```--mZprime```: Z' mass (GeV) (required)
   * ```--rinv```: invisible fraction (required)
   * ```--svjl_type```: Versions of SVJL model (default: A-Democratic, as in  [SVJL signatures](https://link.springer.com/article/10.1140/epjc/s10052-022-10775-2)) (optional)
