@@ -534,7 +534,7 @@ if __name__=="__main__":
     helper.setModel(args.svjl_type,args.mZprime, args.rinv, args.mPiOverLambda, args.lambdaHV)
 
     lines = helper.getPythiaSettings()
-    fname = helper.getOutName()+".txt"
+    fname = helper.getOutName()+".cmnd"
     with open(fname,'w') as file:
         file.write('\n'.join(lines))
         
