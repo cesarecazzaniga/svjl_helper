@@ -482,12 +482,21 @@ class svjHelper(object):
 
     def get_citations(self):
          
-         citation_string = ""
+         citation_string = """
+         @software{Cazzaniga_SVJL_models_production_2023,
+            author = {Cazzaniga, Cesare},
+            month = dec,
+            title = {{SVJL models production}},
+            url = {https://github.com/cesarecazzaniga/svjl_helper},
+            version = {1},
+            year = {2023}
+         }
+         
+         """
          
          if self.svjl_type == "A-Democratic":
             
-            citation_string="""
-            @article{Cazzaniga:2022hxl,
+            citation_string+="""@article{Cazzaniga:2022hxl,
             author         = \"Cazzaniga, Cesare and de Cosa, Annapaola\",
             title          = \"{Leptons lurking in semi-visible jets at the LHC}\",
             journal        = \"Eur. Phys. J. C\",
@@ -498,11 +507,9 @@ class svjHelper(object):
             eprint         = \"2206.03909\",
             archivePrefix  = \"arXiv\",
             primaryClass   = \"hep-ph\"
-            }
-            
-            """
-            
-            citation_string +="""@article{Knapen:2021eip,
+         }
+         
+         @article{Knapen:2021eip,
             author         = \"Knapen, Simon and Shelton, Jessie and Xu\",
             title          = \"{Perturbative benchmark models for a dark shower search program}\",
             journal        = \"Phys. Rev. D\",
@@ -513,7 +520,10 @@ class svjHelper(object):
             eprint         = \"2103.01238\",
             archivePrefix  = \"arXiv\",
             primaryClass   = \"hep-ph\"
-            }"""
+        }
+          
+            """
+            
              
          return citation_string
 
