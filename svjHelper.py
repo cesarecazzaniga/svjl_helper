@@ -1,7 +1,7 @@
 #################################################################################################
 ## Package to generate self-consistent configuration cards for the pythia 8 hidden valley module for SVJL signatures.
 ## Based on arXiv:2206.03909. Please cite this paper when using this package, in addition to the theory
-## papers included in the "citation" string.
+## papers included in the "citation" string and the software reference.
 ##
 ## Written by Cesare Cazzaniga (cesare.cazzaniga@cern.ch)
 ## adapted from: https://github.com/cms-svj/SVJProduction , https://gitlab.com/simonknapen/dark_showers_tool
