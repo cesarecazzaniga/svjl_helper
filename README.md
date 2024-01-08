@@ -19,6 +19,21 @@ An example card is provided in the repository, in order to produce your own card
 ```python svjHelper.py --mZprime 3000.0 --rinv 0.3 --mPiOverLambda 1.6 --lambda 5 --nevents 1000```
 
 
+## Citations
+
+The code itself can be cited as
+
+```
+ @software{Cazzaniga_SVJL_models_production_2023,
+            author = {Cazzaniga, Cesare},
+            month = dec,
+            title = {{SVJL models production}},
+            url = {https://github.com/cesarecazzaniga/svjl_helper},
+            version = {1},
+            year = {2023}
+         }
+```
+
 ## Support
 
 If you have any questions, please
