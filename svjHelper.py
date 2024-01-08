@@ -220,7 +220,7 @@ class svjHelper(object):
         lines = ['{:d}:oneChannel = 1 {:g} 0 {:d} -{:d}'.format(mesonID,self.rinv,dmID,dmID)]
         return lines
 
-    #Here needs to be modified in case of Tau models with Mass insertion for A'    
+    #Here mass insertion or democratic decay tables for pseudo-scalars Z' mediated decays    
     def pseudo_scalar_visibleDecay(self,type,mesonID,dmID):
         
         theQuarks = self.quarks_pseudo.get()
